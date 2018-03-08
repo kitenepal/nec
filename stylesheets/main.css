@@ -19,9 +19,9 @@
   color: #000 !important;
   font-weight: bold;
 }
-/* line 18, ../sass/module/_header.scss */
-.navbar-inverse .navbar-nav > li:hover {
-  background: url(../image/source.gif) 150px 300px;
+/* line 17, ../sass/module/_header.scss */
+.navbar-inverse .navbar-nav > li a:hover {
+  /*enpty effect*/
 }
 
 /* line 22, ../sass/module/_header.scss */
@@ -58,7 +58,7 @@ header .hero-image {
 }
 /* line 47, ../sass/module/_header.scss */
 header .hero-text {
-  font-size: 50px;
+  font-size: 1.5em;
   text-align: center;
   transform: translate(0%, 0%);
   color: white;
@@ -66,4 +66,20 @@ header .hero-text {
 /* line 52, ../sass/module/_header.scss */
 header .hero-text h1 {
   margin-top: 0px;
+}
+/* line 55, ../sass/module/_header.scss */
+header .hero-text p {
+  color: #a5a5a5;
+  font-style: italic;
+}
+
+/* line 1, ../sass/module/_about.scss */
+.about {
+  background: url(../image/open-bible.jpg) fixed;
+  background-size: cover;
+}
+/* line 4, ../sass/module/_about.scss */
+.about h3 {
+  font-family: Comic Sans Ms;
+  padding: 90px 0px;
 }
