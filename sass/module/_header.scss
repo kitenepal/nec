@@ -1,0 +1,59 @@
+.navbar{
+  border-color: transparent;
+  border-radius: 0px;
+  background: transparent;
+  margin-bottom: 0px;
+  .navbar-brand{
+  	padding: 5px 15px; 
+	  .logo{
+    	width: 50px;
+    }
+	}
+}
+.navbar-inverse .navbar-nav > li{ 
+	a{
+		color: #000!important;
+		font-weight: bold;
+	}
+	&:hover{
+		background: url(../image/source.gif) 150px 300px;
+	}
+}
+nav{
+	height: 160px;
+	transition: all 0.3s;
+	.container-fluid{
+		transition: all 0.3s;
+	}
+} 	
+.navshadow{
+  box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  height: 70px;
+  background: #000000a3;
+  .navbar-brand, .navbar-nav>li>a{
+		color: #fff!important;
+	}
+}
+
+
+header{
+	background: url(../image/church.jpg);
+	height: 100vh;
+	background-size: cover;
+	.hero-image{
+		padding-top: 50vh;
+		text-align: center;
+	}
+	.hero-text {
+		font-size: 50px;
+	  text-align: center;
+	  transform: translate(0%, 0%);
+	  color: white;
+	  h1{
+	  	margin-top: 0px;
+	  }
+	}
+}
+
+
+
