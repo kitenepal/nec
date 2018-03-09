@@ -1,0 +1,20 @@
+.read-more {
+  padding: 0px 15px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  @include border-radius(20px);
+  border-style: solid;
+  border-color: #85b14d;
+  color: #85b14d;
+  @include transition(all 0.3s ease);
+  &:hover{
+    border-color: #85b14d;
+    color: #fff;
+    background: #85b14d;
+  }
+  &:active{
+  	transform: scale(0.9);
+  	@include box-shadow(0px, 0px, 5px, 2px);
+  }
+}
