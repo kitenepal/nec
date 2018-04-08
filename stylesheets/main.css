@@ -199,3 +199,20 @@ footer .map-location {
   background-size: cover;
   color: #fff;
 }
+
+/* line 1, ../sass/module/_withus.scss */
+.with-us {
+  padding: 35px 0px 45px 0px;
+  background: url(../image/us.jpg) fixed;
+  background-size: cover;
+  background-position: 0px 10px;
+  color: #fff;
+}
+/* line 7, ../sass/module/_withus.scss */
+.with-us p {
+  font-size: 1.1em;
+}
+/* line 10, ../sass/module/_withus.scss */
+.with-us .col-sm-4 {
+  padding-top: 15px;
+}
