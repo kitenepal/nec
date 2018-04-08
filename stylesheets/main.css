@@ -171,18 +171,31 @@ footer .map-location {
 }
 
 /* line 1, ../sass/module/_team.scss */
+.team {
+  padding: 25px 0px 30px 0px;
+}
+
+/* line 4, ../sass/module/_team.scss */
 .ldr-team {
   border: 1px solid #ddd;
 }
-/* line 3, ../sass/module/_team.scss */
+/* line 6, ../sass/module/_team.scss */
 .ldr-team h4 {
   margin-bottom: 0px;
 }
-/* line 6, ../sass/module/_team.scss */
+/* line 9, ../sass/module/_team.scss */
 .ldr-team span {
   margin-bottom: 15px;
 }
-/* line 9, ../sass/module/_team.scss */
+/* line 12, ../sass/module/_team.scss */
 .ldr-team p {
   padding: 0px 10px;
+}
+
+/* line 1, ../sass/module/_event.scss */
+.event {
+  padding: 25px 0px 30px;
+  background: url(../image/event.jpg) no-repeat 0px -140px;
+  background-size: cover;
+  color: #fff;
 }
