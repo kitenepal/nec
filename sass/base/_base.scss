@@ -1,8 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+// heading-title font
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
 *{
-	font-family: Kalam;
+	font-family: 'Signika', sans-serif;
 }
 .heading{
-	border-left: 4px solid #85b14d;
+	border-left: 4px solid $primary-color;
 	text-indent: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 20px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+// section-padding
+.section-padding{
+	padding: $section-padding;
+}
+
+// primary btn
+.primary_btn {
+  background: transparent;
+  outline: none;
+  @include border-radius(20px);
+  border-style: solid;
+  border-color: $primary-color;
+  color: $primary-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  @include transition(all 0.2s ease);
+  &:hover{
+    border-color: $primary-color;
+    color: #fff;
+    background: $primary-color;
+  }
+  &:active{
+  	transform: scale(0.9);
+  	@include box-shadow(0px, 0px, 5px, 2px);
+  }
+  &:focus{
+  	outline: none;
+  }
 }
