@@ -7,20 +7,18 @@
 
 /* line 8, ../sass/base/_base.scss */
 .heading {
-  border-left: 4px solid #85b14d;
   text-indent: 5px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-left: 20px;
   font-family: 'Libre Baskerville', serif;
 }
 
-/* line 18, ../sass/base/_base.scss */
+/* line 16, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
 
-/* line 23, ../sass/base/_base.scss */
+/* line 21, ../sass/base/_base.scss */
 .primary_btn {
   background: transparent;
   outline: none;
@@ -37,20 +35,20 @@
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 33, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 .primary_btn:hover {
   border-color: #85b14d;
   color: #fff;
   background: #85b14d;
 }
-/* line 38, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .primary_btn:active {
   transform: scale(0.9);
   -webkit-box-shadow: 0px 0px 5px 2px;
   -moz-box-shadow: 0px 0px 5px 2px;
   box-shadow: 0px 0px 5px 2px;
 }
-/* line 42, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 .primary_btn:focus {
   outline: none;
 }
@@ -164,16 +162,14 @@ header .hero-text p {
 
 /* line 1, ../sass/module/_quote.scss */
 .quote {
-  background: url(../image/waterb.jpg) fixed no-repeat center;
+  background: url(../image/quote.jpg) fixed no-repeat center;
   color: #fff;
 }
-/* line 4, ../sass/module/_quote.scss */
-.quote .verse {
-  padding: 15px 10%;
-}
-/* line 6, ../sass/module/_quote.scss */
+/* line 5, ../sass/module/_quote.scss */
 .quote .verse p {
   float: right;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* line 2, ../sass/module/_footer.scss */
