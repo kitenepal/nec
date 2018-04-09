@@ -14,8 +14,9 @@
 	a{
 		color: #000!important;
 		font-weight: bold;
+		text-transform: uppercase;
 		&:hover{
-			/*enpty effect*/
+			text-decoration: underline;
 		}
 	}
 }
