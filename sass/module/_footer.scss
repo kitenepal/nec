@@ -1,5 +1,22 @@
 footer{
 	.map-location{
 		width: 100%;
+		line-height: 0px;
+	}
+	.social-icon{
+		margin: 0px;
+		background-color: #8a8a8a;
+		color: #fff;
+		font-size: 1.5em;
+		i{
+			padding-left: 10px;
+			transition: 0.5s;
+		}
+		.fa-facebook:hover{
+			color: #4267b2;
+		}
+		.fa-youtube:hover{
+			color: #f00;
+		}
 	}
 }

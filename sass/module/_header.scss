@@ -4,30 +4,30 @@
   background: transparent;
   margin-bottom: 0px;
   .navbar-brand{
-  	padding: 5px 15px; 
+  	padding: 5px 15px;
 	  .logo{
     	width: 50px;
     }
 	}
 }
-.navbar-inverse .navbar-nav > li{ 
+.navbar-inverse .navbar-nav > li{
 	a{
 		color: #000!important;
 		font-weight: bold;
 		text-transform: uppercase;
-		&:hover{
-			text-decoration: underline;
-		}
+    &:hover{
+      color: #ddab2b !important;
+    }
 	}
 }
 
 nav{
 	height: 160px;
 	transition: all 0.3s;
-	.container-fluid{
+	.navanime{
 		transition: all 0.3s;
 	}
-} 	
+}
 .navshadow{
   box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
   height: 70px;
@@ -62,7 +62,7 @@ header{
 }
 
 @media screen and (max-width: 767px){
-	.navbar-inverse .navbar-nav{ 
+	.navbar-inverse .navbar-nav{
 		&>li{
 			background: rgba(0,0,0,0.64);
 		}
@@ -77,6 +77,3 @@ header{
     padding-top: 40vh;
   }
 }
-
-
-

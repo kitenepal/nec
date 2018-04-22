@@ -78,7 +78,7 @@
 }
 /* line 18, ../sass/module/_header.scss */
 .navbar-inverse .navbar-nav > li a:hover {
-  text-decoration: underline;
+  color: #ddab2b !important;
 }
 
 /* line 24, ../sass/module/_header.scss */
@@ -87,7 +87,7 @@ nav {
   transition: all 0.3s;
 }
 /* line 27, ../sass/module/_header.scss */
-nav .container-fluid {
+nav .navanime {
   transition: all 0.3s;
 }
 
@@ -176,6 +176,27 @@ header .hero-text p {
 /* line 2, ../sass/module/_footer.scss */
 footer .map-location {
   width: 100%;
+  line-height: 0px;
+}
+/* line 6, ../sass/module/_footer.scss */
+footer .social-icon {
+  margin: 0px;
+  background-color: #8a8a8a;
+  color: #fff;
+  font-size: 1.5em;
+}
+/* line 11, ../sass/module/_footer.scss */
+footer .social-icon i {
+  padding-left: 10px;
+  transition: 0.5s;
+}
+/* line 15, ../sass/module/_footer.scss */
+footer .social-icon .fa-facebook:hover {
+  color: #4267b2;
+}
+/* line 18, ../sass/module/_footer.scss */
+footer .social-icon .fa-youtube:hover {
+  color: #f00;
 }
 
 /* line 1, ../sass/module/_event.scss */
