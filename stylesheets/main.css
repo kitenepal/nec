@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Signika");
-@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
-/* line 5, ../sass/base/_base.scss */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+/* line 3, ../sass/base/_base.scss */
 * {
-  font-family: 'Signika', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* line 8, ../sass/base/_base.scss */
+/* line 6, ../sass/base/_base.scss */
 .heading {
   text-indent: 5px;
   font-weight: bold;
@@ -14,12 +13,12 @@
   margin-bottom: 20px;
 }
 
-/* line 17, ../sass/base/_base.scss */
+/* line 15, ../sass/base/_base.scss */
 .section-padding {
   padding: 60px 0;
 }
 
-/* line 22, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 .primary_btn {
   background: transparent;
   outline: none;
@@ -36,22 +35,18 @@
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 32, ../sass/base/_base.scss */
+/* line 30, ../sass/base/_base.scss */
 .primary_btn:hover {
   border-color: #85b14d;
   color: #fff;
   background: #85b14d;
 }
-/* line 37, ../sass/base/_base.scss */
+/* line 35, ../sass/base/_base.scss */
 .primary_btn:active {
   transform: scale(0.9);
   -webkit-box-shadow: 0px 0px 5px 2px;
   -moz-box-shadow: 0px 0px 5px 2px;
   box-shadow: 0px 0px 5px 2px;
-}
-/* line 41, ../sass/base/_base.scss */
-.primary_btn:focus {
-  outline: none;
 }
 
 /* line 1, ../sass/module/_header.scss */
@@ -157,7 +152,7 @@ header .hero-text p {
   box-shadow: 0px 25px 35px -15px;
 }
 /* line 10, ../sass/module/_about.scss */
-.about .read-more {
+.about button {
   margin-bottom: 20px;
 }
 
@@ -186,27 +181,43 @@ footer .social-icon {
   font-size: 1.5em;
 }
 /* line 11, ../sass/module/_footer.scss */
+footer .social-icon a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 15, ../sass/module/_footer.scss */
 footer .social-icon i {
   padding-left: 10px;
   transition: 0.5s;
 }
-/* line 15, ../sass/module/_footer.scss */
+/* line 19, ../sass/module/_footer.scss */
 footer .social-icon .fa-facebook:hover {
   color: #4267b2;
 }
-/* line 18, ../sass/module/_footer.scss */
+/* line 22, ../sass/module/_footer.scss */
 footer .social-icon .fa-youtube:hover {
   color: #f00;
+}
+
+/* line 1, ../sass/module/_team.scss */
+.ldr-team > img {
+  margin: 0px auto;
 }
 
 /* line 1, ../sass/module/_event.scss */
 .event {
   padding: 25px 0px 30px;
-  background: url(../image/event.jpg) no-repeat 0px -140px;
+  background: url(../image/event.jpg) no-repeat fixed;
   background-size: cover;
   color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 8, ../sass/module/_event.scss */
+  .res-center {
+    text-align: center;
+  }
+}
 /* line 1, ../sass/module/_withus.scss */
 .with-us {
   padding: 35px 0px 45px 0px;
@@ -222,4 +233,27 @@ footer .social-icon .fa-youtube:hover {
 /* line 10, ../sass/module/_withus.scss */
 .with-us .col-sm-4 {
   padding-top: 15px;
+}
+
+/* line 1, ../sass/module/_blog.scss */
+.blog {
+  padding: 30px 0px;
+}
+/* line 3, ../sass/module/_blog.scss */
+.blog h1 {
+  padding-bottom: 15px;
+}
+/* line 6, ../sass/module/_blog.scss */
+.blog .imgblog {
+  padding-bottom: 15px;
+}
+/* line 9, ../sass/module/_blog.scss */
+.blog p {
+  padding-top: 10px;
+  line-height: 1.6em;
+}
+/* line 13, ../sass/module/_blog.scss */
+.blog button {
+  margin: 15px 0px;
+  float: right;
 }
