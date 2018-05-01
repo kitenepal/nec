@@ -1,6 +1,9 @@
 .event{
   padding: 25px 0px 30px;
-  background: url(../image/event.jpg) no-repeat fixed;
+  background: linear-gradient(
+              rgba(0, 0, 0, 0.45),
+              rgba(0, 0, 0, 0.45)),
+              url(../image/event.jpg) no-repeat fixed;
   background-size: cover;
   color: #fff;
 }

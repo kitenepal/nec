@@ -39,7 +39,10 @@ nav{
 
 
 header{
-	background: url(../image/church.jpg);
+	background: linear-gradient(
+              rgba(255, 255, 255, 0.45),
+              rgba(0, 0, 0, 0.45)),
+              url(../image/church.jpg);
 	height: 100vh;
 	background-size: cover;
 	.hero-image{
