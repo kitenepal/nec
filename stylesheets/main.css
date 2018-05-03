@@ -262,3 +262,11 @@ footer .social-icon .fa-youtube:hover {
 .Sermons {
   padding-left: 60px 0;
 }
+
+/* line 1, ../sass/module/pages/_about.scss */
+.page-heading {
+  background-color: #222;
+  margin-top: 70px;
+  padding: 20px 0px;
+  color: #fff;
+}
