@@ -3,6 +3,7 @@
 *{
 	font-family: 'Poppins', sans-serif;
 }
+
 .heading{
 	text-indent: 5px;
 	font-weight: bold;
@@ -39,4 +40,21 @@
   &:focus{
 
   }
+}
+
+.page-heading{
+  background-color: $secondary-color;
+  margin-top: 70px;
+  padding: 20px 0px;
+  color: #fff;
+	a{
+		color: #fff;
+		text-decoration: none;
+	}
+	span{
+		opacity: 0.5;
+		&:hover{
+			opacity: 1;
+		}
+	}
 }

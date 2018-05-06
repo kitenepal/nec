@@ -4,7 +4,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 6, ../sass/base/_base.scss */
+/* line 7, ../sass/base/_base.scss */
 .heading {
   text-indent: 5px;
   font-weight: bold;
@@ -13,12 +13,12 @@
   margin-bottom: 20px;
 }
 
-/* line 15, ../sass/base/_base.scss */
+/* line 16, ../sass/base/_base.scss */
 .section-padding {
   padding: 60px 0;
 }
 
-/* line 20, ../sass/base/_base.scss */
+/* line 21, ../sass/base/_base.scss */
 .primary_btn {
   background: transparent;
   outline: none;
@@ -35,18 +35,39 @@
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 30, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 .primary_btn:hover {
   border-color: #85b14d;
   color: #fff;
   background: #85b14d;
 }
-/* line 35, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .primary_btn:active {
   transform: scale(0.9);
   -webkit-box-shadow: 0px 0px 5px 2px;
   -moz-box-shadow: 0px 0px 5px 2px;
   box-shadow: 0px 0px 5px 2px;
+}
+
+/* line 45, ../sass/base/_base.scss */
+.page-heading {
+  background-color: #222;
+  margin-top: 70px;
+  padding: 20px 0px;
+  color: #fff;
+}
+/* line 50, ../sass/base/_base.scss */
+.page-heading a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 54, ../sass/base/_base.scss */
+.page-heading span {
+  opacity: 0.5;
+}
+/* line 56, ../sass/base/_base.scss */
+.page-heading span:hover {
+  opacity: 1;
 }
 
 /* line 1, ../sass/module/_header.scss */
@@ -264,9 +285,23 @@ footer .social-icon .fa-youtube:hover {
 }
 
 /* line 1, ../sass/module/pages/_about.scss */
-.page-heading {
-  background-color: #222;
-  margin-top: 70px;
-  padding: 20px 0px;
-  color: #fff;
+.our-church {
+  padding-top: 10px;
+}
+/* line 3, ../sass/module/pages/_about.scss */
+.our-church .img-about {
+  margin-top: 30px;
+}
+
+/* line 1, ../sass/module/pages/_blog.scss */
+.blog-content {
+  padding-top: 30px;
+}
+/* line 3, ../sass/module/pages/_blog.scss */
+.blog-content strong {
+  border-bottom: 3px solid #f4f4f4;
+}
+/* line 6, ../sass/module/pages/_blog.scss */
+.blog-content p {
+  padding-top: 15px;
 }
