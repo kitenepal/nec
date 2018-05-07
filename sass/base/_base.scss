@@ -1,5 +1,10 @@
 // heading-title font
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@font-face{
+	font-family: DroidSans;
+  src: url("../font/DroidSans.ttf");
+}
 *{
 	font-family: 'Poppins', sans-serif;
 }
@@ -8,7 +13,7 @@
 	text-indent: 5px;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'DroidSans', sans-serif;
   margin-bottom: 20px;
 }
 
