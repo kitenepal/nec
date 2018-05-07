@@ -11,19 +11,18 @@
 
 /* line 12, ../sass/base/_base.scss */
 .heading {
-  text-indent: 5px;
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'DroidSans', sans-serif;
   margin-bottom: 20px;
 }
 
-/* line 21, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 .section-padding {
   padding: 60px 0;
 }
 
-/* line 26, ../sass/base/_base.scss */
+/* line 25, ../sass/base/_base.scss */
 .primary_btn {
   background: transparent;
   outline: none;
@@ -40,13 +39,13 @@
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 36, ../sass/base/_base.scss */
+/* line 35, ../sass/base/_base.scss */
 .primary_btn:hover {
   border-color: #85b14d;
   color: #fff;
   background: #85b14d;
 }
-/* line 41, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 .primary_btn:active {
   transform: scale(0.9);
   -webkit-box-shadow: 0px 0px 5px 2px;
@@ -54,23 +53,39 @@
   box-shadow: 0px 0px 5px 2px;
 }
 
-/* line 50, ../sass/base/_base.scss */
+/* line 49, ../sass/base/_base.scss */
+.custom-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #85b14d;
+  border: 1px solid #85b14d;
+  outline-color: #85b14d;
+  padding: 6px;
+  transition: 0.3s ease;
+}
+/* line 57, ../sass/base/_base.scss */
+.custom-btn:hover {
+  background-color: #fff;
+  color: #85b14d;
+}
+
+/* line 64, ../sass/base/_base.scss */
 .page-heading {
   background-color: #222;
   margin-top: 70px;
   padding: 20px 0px;
   color: #fff;
 }
-/* line 55, ../sass/base/_base.scss */
+/* line 69, ../sass/base/_base.scss */
 .page-heading a {
   color: #fff;
   text-decoration: none;
 }
-/* line 59, ../sass/base/_base.scss */
+/* line 73, ../sass/base/_base.scss */
 .page-heading span {
   opacity: 0.5;
 }
-/* line 61, ../sass/base/_base.scss */
+/* line 75, ../sass/base/_base.scss */
 .page-heading span:hover {
   opacity: 1;
 }
@@ -225,7 +240,13 @@ footer .social-icon .fa-youtube:hover {
   color: #f00;
 }
 
-/* line 1, ../sass/module/_team.scss */
+/* line 2, ../sass/module/_team.scss */
+.team .custom-btn {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* line 8, ../sass/module/_team.scss */
 .ldr-team > img {
   margin: 0px auto;
 }
@@ -309,4 +330,9 @@ footer .social-icon .fa-youtube:hover {
 /* line 6, ../sass/module/pages/_blog.scss */
 .blog-content p {
   padding-top: 15px;
+}
+
+/* line 1, ../sass/module/pages/_contact.scss */
+.contact-form {
+  padding-top: 50px;
 }
