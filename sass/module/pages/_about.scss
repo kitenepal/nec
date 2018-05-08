@@ -4,3 +4,33 @@
     margin-top: 30px;
   }
 }
+
+.leaders-list{
+  padding-top: 20px;
+  .col-md-4{
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 990px){
+  .our-church{
+    .col-md-4{
+      img{
+        margin: 0px auto;
+      }
+    }
+  }
+  .leaders-list{
+    .heading{
+      text-align: center;
+      margin-top: 40px;
+    }
+    .col-md-4{
+      padding-top: 10px;
+      padding-bottom: 5px;
+      img{
+        margin: 0px auto;
+      }
+    }
+  }
+}

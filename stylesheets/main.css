@@ -319,6 +319,36 @@ footer .social-icon .fa-youtube:hover {
   margin-top: 30px;
 }
 
+/* line 8, ../sass/module/pages/_about.scss */
+.leaders-list {
+  padding-top: 20px;
+}
+/* line 10, ../sass/module/pages/_about.scss */
+.leaders-list .col-md-4 {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  /* line 18, ../sass/module/pages/_about.scss */
+  .our-church .col-md-4 img {
+    margin: 0px auto;
+  }
+
+  /* line 24, ../sass/module/pages/_about.scss */
+  .leaders-list .heading {
+    text-align: center;
+    margin-top: 40px;
+  }
+  /* line 28, ../sass/module/pages/_about.scss */
+  .leaders-list .col-md-4 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  /* line 31, ../sass/module/pages/_about.scss */
+  .leaders-list .col-md-4 img {
+    margin: 0px auto;
+  }
+}
 /* line 1, ../sass/module/pages/_blog.scss */
 .blog-content {
   padding-top: 30px;
